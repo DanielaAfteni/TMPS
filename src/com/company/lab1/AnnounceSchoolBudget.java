@@ -1,4 +1,4 @@
-package com.company;
+package com.company.lab1;
 
 // class - to send message (1 responsibility)
 public class AnnounceSchoolBudget {

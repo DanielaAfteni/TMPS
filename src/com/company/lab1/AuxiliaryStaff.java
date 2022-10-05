@@ -1,4 +1,4 @@
-package com.company;
+package com.company.lab1;
 
 public class AuxiliaryStaff implements Staff{
 

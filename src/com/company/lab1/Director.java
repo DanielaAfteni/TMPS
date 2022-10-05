@@ -1,4 +1,4 @@
-package com.company;
+package com.company.lab1;
 
 public class Director implements Staff{
     private final int hoursWorked;
