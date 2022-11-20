@@ -19,9 +19,7 @@ public class CandyMaker {
         this.name = name;
     }
 
-    void setSurname (String surname) {
-        this.surname = surname;
-    }
+    void setSurname (String surname) { this.surname = surname; }
 
     void setTypeOfCandy (String typeOfCandy) { this.typeOfCandy = typeOfCandy; }
 
