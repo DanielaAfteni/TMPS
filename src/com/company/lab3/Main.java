@@ -19,12 +19,13 @@ public class Main {
          // Each developer has its name, surname, status, experience and group(of other members)
          // Bridge
          // Decorator
-         Developer playerA = new FrontendDeveloper(new SeniorDeveloper());
-         Developer playerB = new Leader(new BackendDeveloper(new JuniorDeveloper()));
-         System.out.println(playerA.printInfoAboutDeveloper());
-         System.out.println(playerB.printInfoAboutDeveloper());
-         playerA.implement();
-         playerB.implement();
+         // Start of the implementation
+         Developer developer1 = new Leader(new BackendDeveloper(new JuniorDeveloper()));
+         Developer developer2 = new FrontendDeveloper(new SeniorDeveloper());
+         System.out.println(developer2.printInfoAboutDeveloper());
+         System.out.println(developer1.printInfoAboutDeveloper());
+         developer2.implement();
+         developer1.implement();
          // Facade
          DeveloperFacade playerFacade = new DeveloperFacade();
          playerFacade.stepsForSeniors("Frontend");

@@ -1,7 +1,6 @@
 package com.company.lab3;
 
 public class DevAdapter extends Dev {
-
     private Dev dev;
 
     DevAdapter(String pblProject, String seniorOrJunior) {
@@ -13,7 +12,5 @@ public class DevAdapter extends Dev {
         }
     }
 
-    void implementPBLProject() {
-        dev.implement();
-    }
+    void implementPBLProject() {dev.implement();}
 }
